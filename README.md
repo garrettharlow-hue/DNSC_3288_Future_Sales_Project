@@ -33,3 +33,8 @@
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
+**Test Data**
+- Source of test data
+- Number of rows in test data
+- State any differences in columns between training and test data
+
