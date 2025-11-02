@@ -2,7 +2,7 @@
 **Basic Information**
 - Collaborators:
 - Model Date: November, 2025
-- Model Version:
+- Model Version: 1.0
 - License:
 - Model Implementation Code:
 
