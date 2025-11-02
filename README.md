@@ -12,7 +12,7 @@
 - Out-of-Scope Uses: Predicting sales for new stores, predicting individual customer purchases, using the data to address the financial standing of the company. 
 
 **Training Data**
-- Source of training data:
+- Source of training data: Kaggle, https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview
 - How training data was divided into training and validation data:
 - Number of rows in training and validation data:
 - Data dictionary:
