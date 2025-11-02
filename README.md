@@ -4,7 +4,7 @@
 - Model Date: November, 2025
 - Model Version: 1.0
 - License: Apache 2.0
-- Model Implementation Code:
+- Model Implementation Code:https://colab.research.google.com/drive/10djDrUJCI6xkbuIELrcJSlnEHHzZK3ou?usp=sharing
 
 **Intended Use**
 - Intended Uses:
