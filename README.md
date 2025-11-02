@@ -1,7 +1,7 @@
 # Predict Future Sales
 **Basic Information**
 - Collaborators:
-- Model Date:
+- Model Date: November, 2025
 - Model Version:
 - License:
 - Model Implementation Code:
