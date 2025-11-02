@@ -15,4 +15,6 @@
 - Source of training data: Kaggle, https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview
 - How training data was divided into training and validation data:
 - Number of rows in training and validation data:
+    - Rows in trained data:
+    - Rows in validation data: 
 - Data dictionary:
