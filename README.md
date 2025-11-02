@@ -7,9 +7,9 @@
 - Model Implementation Code:https://colab.research.google.com/drive/10djDrUJCI6xkbuIELrcJSlnEHHzZK3ou?usp=sharing
 
 **Intended Use**
-- Intended Uses:
-- Intended Users:
-- Out-of-Scope Uses:
+- Intended Uses: Predicting sales volumes and forecasting the amount of sales in the next month for each store and product to assist with inventory and supply chain planning. This model can support retail decision making and demand planning for variosu retail stores and product lines. 
+- Intended Users: Data Analysts, Supply Chain Analysts, Retail Operations Managers, E-Commerce Retailers
+- Out-of-Scope Uses: Predicting sales for new stores, predicting individual customer purchases, using the data to address the financial standing of the company. 
 
 **Training Data**
 - Source of training data:
