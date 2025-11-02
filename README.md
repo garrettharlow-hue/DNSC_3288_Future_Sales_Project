@@ -1,6 +1,6 @@
 # Predict Future Sales
 **Basic Information**
-- Collaborators:
+- Collaborators: Garrett (garrett@acme.com), Brooke (brooke@acme.com), Khadija (khadija@acme.com), Henry (henry@acme.com), Chris (chris@acme.com)
 - Model Date: November, 2025
 - Model Version: 1.0
 - License:
