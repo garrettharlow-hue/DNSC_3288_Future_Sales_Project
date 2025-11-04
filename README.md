@@ -1,4 +1,5 @@
 # Predict Future Sales
+
 **Basic Information**
 - Collaborators: Garrett (garrett@acme.com), Brooke (brooke@acme.com), Khadija (khadija@acme.com), Henry (henry@acme.com), Chris (chris@acme.com)
 - Model Date: November, 2025
@@ -37,4 +38,18 @@
 - Source of test data
 - Number of rows in test data
 - State any differences in columns between training and test data
+
+**Model Details**
+- Columns used as input in the final model:
+- Type of model:
+- Software used to implement the model:
+- Version of the modeling software:
+- Hyperparameters or other settings of your model:
+
+**Quantitative Analysis**
+- Metrics used to evaluate the final model:
+- Final values:
+      - Training:
+      - Validation:
+      - Test Data:
 
