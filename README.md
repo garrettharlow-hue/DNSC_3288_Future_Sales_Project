@@ -5,7 +5,7 @@
 - Model Date: November, 2025
 - Model Version: 1.0
 - License: Apache 2.0
-- Model Implementation Code:[https://colab.research.google.com/drive/10djDrUJCI6xkbuIELrcJSlnEHHzZK3ou?usp=sharing](https://colab.research.google.com/drive/10djDrUJCI6xkbuIELrcJSlnEHHzZK3ou?usp=sharing#scrollTo=IXpexQkEUB5L)
+- Model Implementation Code:
 
 **Intended Use**
 - Intended Uses: Predicting sales volumes and forecasting the amount of sales in the next month for each store and product to assist with inventory and supply chain planning. This model can support retail decision making and demand planning for variosu retail stores and product lines. 
