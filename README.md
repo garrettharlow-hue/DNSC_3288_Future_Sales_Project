@@ -35,7 +35,7 @@
 | **item_category_name**| target | boolean | name of item category |
 
 **Test Data**
-- Source of test data
+- Source of test data: https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview (test.csv)
 - Number of rows in test data
 - State any differences in columns between training and test data
 
