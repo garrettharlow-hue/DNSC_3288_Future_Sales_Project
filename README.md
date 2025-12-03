@@ -1,24 +1,24 @@
 # Predict Future Sales
 
 **Basic Information**
-- Collaborators: Garrett Harlow (garrett@acme.com), Brooke Weinberg (brooke@acme.com), Khadija Nissim (khadija@acme.com), Henry Leung (henry@acme.com), Chris Park (chris@acme.com)
-- Model Date: November, 2025
-- Model Version: 1.0
-- License: Apache 2.0
-- Model Implementation Code:
+- **Collaborators:** Garrett Harlow (garrett@acme.com), Brooke Weinberg (brooke@acme.com), Khadija Nissim (khadija@acme.com), Henry Leung (henry@acme.com), Chris Park (chris@acme.com)
+- **Model Date:** November, 2025
+- **Model Version:** 1.0
+- **License:** Apache 2.0
+- **Model Implementation Code:**
 
 **Intended Use**
-- Intended Uses: This model is designed to predicting sales volumes and forecast sales volumes for future months for each store and product, assisting with inventory and supply chain planning. By identifying these patterns, the model can support retail decision making and demand planning for various retail stores and product lines. 
-- Intended Users: Data Analysts, Supply Chain Analysts, Retail Operations Managers, and E-Commerce Retailers
-- Out-of-Scope Uses: The model should not be used to predict sales for new stores, predict individual customer purchases, or evaluate and address the financial standing of the company. 
+- **Intended Uses:** This model is designed to predicting sales volumes and forecast sales volumes for future months for each store and product, assisting with inventory and supply chain planning. By identifying these patterns, the model can support retail decision making and demand planning for various retail stores and product lines. 
+- **Intended Users:** Data Analysts, Supply Chain Analysts, Retail Operations Managers, and E-Commerce Retailers
+- **Out-of-Scope Uses:** The model should not be used to predict sales for new stores, predict individual customer purchases, or evaluate and address the financial standing of the company. 
 
 **Training Data**
-- Source of training data: Kaggle, https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview
-- How training data was divided into training and validation data: **still missing this**
-- Number of rows in training and validation data:
+- **Source of training data:** Kaggle, https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview
+- **How training data was divided into training and validation data:** **still missing this**
+- **Number of rows in training and validation data:**
     - Rows in trained data: 1,293,041 rows 
     - Rows in validation data: 30,754 rows
-* Data dictionary: 
+**Data dictionary:** 
 
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -35,17 +35,17 @@
 | **item_category_name**| target | boolean | name of item category |
 
 **Test Data**
-- Source of test data: https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview (test.csv)
-- Number of rows in test data: 214,200 rows
-- State any differences in columns between training and test data:
+- **Source of test data:** https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview (test.csv)
+-**Number of rows in test data:** 214,200 rows
+- **State any differences in columns between training and test data:**
 - test.csv contains: 'ID', 'shop_ID', and 'item_ID'
 - The tagret column 'item_cnt_month' is absent from the test set 
 
 **Model Details**
-- Columns used as input in the final model:
+- **Columns used as input in the final model:**
 - 'date_block_num', 'shop_id', 'item_id', 'item_category_id', 'type_code', 'city_code', 'average_item_price', 'item_cnt_month_lag_1', 'item_cnt_month_lag_2', 'item_cnt_month_lag_3', 'item_cnt_month_lag_6', 'item_cnt_month_lag_12'
-- Type of model: Decision Tree 
-- Software used to implement the model:
+- **Type of model:** Decision Tree 
+- **Software used to implement the model:**
 - Python, used in a Colab Jupyter Notebook
 - The libraries we used in our code were Pandas for data wrangling, Numpy for nuemric operations, LightGBM for the gradient boosting model, Scikitlearn for evaluation metrics and utilities, and matplotlib for our visualizations
 - Version of the modeling software: Python 3.14.1
