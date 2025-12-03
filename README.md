@@ -1,23 +1,23 @@
 # Predict Future Sales
 
 **Basic Information**
-- Collaborators: Garrett (garrett@acme.com), Brooke (brooke@acme.com), Khadija (khadija@acme.com), Henry (henry@acme.com), Chris (chris@acme.com)
+- Collaborators: Garrett Harlow (garrett@acme.com), Brooke Weinberg (brooke@acme.com), Khadija Nissim (khadija@acme.com), Henry Leung (henry@acme.com), Chris Park (chris@acme.com)
 - Model Date: November, 2025
 - Model Version: 1.0
 - License: Apache 2.0
 - Model Implementation Code:
 
 **Intended Use**
-- Intended Uses: Predicting sales volumes and forecasting the amount of sales in the next month for each store and product to assist with inventory and supply chain planning. This model can support retail decision making and demand planning for variosu retail stores and product lines. 
-- Intended Users: Data Analysts, Supply Chain Analysts, Retail Operations Managers, E-Commerce Retailers
-- Out-of-Scope Uses: Predicting sales for new stores, predicting individual customer purchases, using the data to address the financial standing of the company. 
+- Intended Uses: This model is designed to predicting sales volumes and forecast sales volumes for future months for each store and product, assisting with inventory and supply chain planning. By identifying these patterns, the model can support retail decision making and demand planning for various retail stores and product lines. 
+- Intended Users: Data Analysts, Supply Chain Analysts, Retail Operations Managers, and E-Commerce Retailers
+- Out-of-Scope Uses: The model should not be used to predict sales for new stores, predict individual customer purchases, or evaluate and address the financial standing of the company. 
 
 **Training Data**
 - Source of training data: Kaggle, https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview
-- How training data was divided into training and validation data:
+- How training data was divided into training and validation data: **still missing this**
 - Number of rows in training and validation data:
-    - Rows in trained data:
-    - Rows in validation data: 
+    - Rows in trained data: 1,293,041 rows 
+    - Rows in validation data: 30,754 rows
 * Data dictionary: 
 
 | Name | Modeling Role | Measurement Level| Description|
@@ -31,21 +31,23 @@
 | **date** | demographic information | int | date in format dd/mm/yyyy |
 | **date_block_num** | inputs | int | a consecutive month number, used for convenience. January 2013 is 0, February 2013 is 1,..., October 2015 is 33 |
 | **item_name** | inputs | boolean | name of item |
-| **shop_name** | inputs | boolean | aname of shop |
+| **shop_name** | inputs | boolean | name of shop |
 | **item_category_name**| target | boolean | name of item category |
 
 **Test Data**
 - Source of test data: https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview (test.csv)
 - Number of rows in test data: 214,200 rows
-- State any differences in columns between training and test data: -test.csv contains: 'ID', 'shop_ID', and 'item_ID'
+- State any differences in columns between training and test data:
+- test.csv contains: 'ID', 'shop_ID', and 'item_ID'
 - The tagret column 'item_cnt_month' is absent from the test set 
 
 **Model Details**
-- Columns used as input in the final model: 'date_block_num', 'shop_id', 'item_id', 'item_category_id', 'type_code', 'city_code', 'average_item_price', 'item_cnt_month_lag_1', 'item_cnt_month_lag_2', 'item_cnt_month_lag_3', 'item_cnt_month_lag_6', 'item_cnt_month_lag_12'
-- Type of model: gradient boosted decision tree using lightGBM in regression mode 
-- Software used to implement the model: Python
-- Colab
-- The libraries we used in our code were Pandas for data wrangling, Numpy for nuemric operations, LightGBM for the gradient boosting model, sikitlearn for evaluation metrics and utilities, and matplotlib for our visualizations
+- Columns used as input in the final model:
+- 'date_block_num', 'shop_id', 'item_id', 'item_category_id', 'type_code', 'city_code', 'average_item_price', 'item_cnt_month_lag_1', 'item_cnt_month_lag_2', 'item_cnt_month_lag_3', 'item_cnt_month_lag_6', 'item_cnt_month_lag_12'
+- Type of model: Decision Tree 
+- Software used to implement the model:
+- Python, used in a Colab Jupyter Notebook
+- The libraries we used in our code were Pandas for data wrangling, Numpy for nuemric operations, LightGBM for the gradient boosting model, Scikitlearn for evaluation metrics and utilities, and matplotlib for our visualizations
 - Version of the modeling software: Python 3.14.1
 - Hyperparameters or other settings of your model:
 - 'objective' = 'regression', 'metric = 'rmse', 'learning_rate = .05', 'num_leaves = 64', 'feature_fraction = .8", 'bagging_fraction = .8', 'bragging_freq = 5', 'seed = 42', num_boost_round = 200-300' with early stopping on the validation set 
@@ -53,8 +55,8 @@
 **Quantitative Analysis**
 - Metrics used to evaluate the final model: **come back to this**
 - Final values:
-      - Training: 
-      - Validation:
+      - Training RMSE: 1.6974
+      - Validation RMSE: 1.7416
       - Test Data:
   
   **Plots**
