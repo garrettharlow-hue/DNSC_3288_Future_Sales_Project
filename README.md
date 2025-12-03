@@ -36,20 +36,36 @@
 
 **Test Data**
 - Source of test data: https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview (test.csv)
-- Number of rows in test data
-- State any differences in columns between training and test data
+- Number of rows in test data: 214,200 rows
+- State any differences in columns between training and test data: -test.csv contains: 'ID', 'shop_ID', and 'item_ID'
+- The tagret column 'item_cnt_month' is absent from the test set 
 
 **Model Details**
-- Columns used as input in the final model:
-- Type of model:
-- Software used to implement the model:
-- Version of the modeling software:
+- Columns used as input in the final model: 'date_block_num', 'shop_id', 'item_id', 'item_category_id', 'type_code', 'city_code', 'average_item_price', 'item_cnt_month_lag_1', 'item_cnt_month_lag_2', 'item_cnt_month_lag_3', 'item_cnt_month_lag_6', 'item_cnt_month_lag_12'
+- Type of model: gradient boosted decision tree using lightGBM in regression mode 
+- Software used to implement the model: Python
+- Colab
+- The libraries we used in our code were Pandas for data wrangling, Numpy for nuemric operations, LightGBM for the gradient boosting model, sikitlearn for evaluation metrics and utilities, and matplotlib for our visualizations
+- Version of the modeling software: Python 3.14.1
 - Hyperparameters or other settings of your model:
+- 'objective' = 'regression', 'metric = 'rmse', 'learning_rate = .05', 'num_leaves = 64', 'feature_fraction = .8", 'bagging_fraction = .8', 'bragging_freq = 5', 'seed = 42', num_boost_round = 200-300' with early stopping on the validation set 
 
 **Quantitative Analysis**
-- Metrics used to evaluate the final model:
+- Metrics used to evaluate the final model: **come back to this**
 - Final values:
-      - Training:
+      - Training: 
       - Validation:
       - Test Data:
+  
+  **Plots**
+  - Plots that are included in the repository:
+  - Distribution of item_cnt_month before and after clipping
+  - RMSE versus boosting round (LightGBM evaluation log)
+  - Feature importance plot from LightGBM (gain or split importance)
+  - Example time series for a single shop item pair (actual versus preidcted on validation month) 
+  
+**Ethical Considerations**
+- Describe potential ethical impacts of using your model
+-     Math or software problems: 
+-     Real-world risks 
 
