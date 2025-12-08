@@ -1,4 +1,4 @@
-# Predict Future Sales
+# Predict Future Sales Model Card
 
 **Basic Information**
 - **Collaborators:** Garrett Harlow (garrett@acme.com), Brooke Weinberg (brooke@acme.com), Khadija Nissim (khadija@acme.com), Henry Leung (henry@acme.com), Chris Park (chris@acme.com)
