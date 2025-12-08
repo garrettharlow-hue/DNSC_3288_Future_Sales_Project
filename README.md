@@ -45,7 +45,8 @@
 - **Type of model:** LightGBM
 - **Software used to implement the model:** Python, used in a Colab Jupyter Notebook
 - **Version of the modeling software:** Python 3.14.1
-- **Hyperparameters or other settings of your model:** 'objective' = 'regression', 'metric = 'rmse', 'learning_rate = .05', 'num_leaves = 64', 'feature_fraction' = .8, 'bagging_fraction' = .8, 'bragging_freq' = 5, 'seed = 42', num_boost_round = 200-300' with early stopping on the validation set 
+- **Hyperparameters or other settings of your model:** 'objective' = 'regression', 'metric = 'rmse', 'learning_rate = .05', 'num_leaves = 64', 'feature_fraction' = .8, 'bagging_fraction' = .8, 'bragging_freq' = 5, 'seed = 42', num_boost_round = 200-300' with early stopping on the validation set
+- **Target Variable** item_cnt_month (monthly item sales)
 
 **Quantitative Analysis**
 - Metrics used to evaluate the final model: **come back to this**
