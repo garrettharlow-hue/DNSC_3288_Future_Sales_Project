@@ -18,6 +18,7 @@
 - **Number of rows in training and validation data:**
     - Rows in trained data: 1,293,041 rows 
     - Rows in validation data: 30,754 rows
+
 **Data dictionary:** 
 
 | Name | Modeling Role | Measurement Level| Description|
