@@ -63,7 +63,7 @@
 - **Math or software problems**
   - Overfitting to historical patterns can create overly confident forecasts for rare items or new shops.
   - Data quality issues (missing data, outliers) may bias the model, especially for items with few historical sales.
-  - If the feature pipeline or lag computation is incorrect, the model may “peek into the future,” artificially inflating validation performance.
+  - If the feature pipeline or lag computation is incorrect, the model may artificially inflate validation performance.
 
 - **Real-world risks**
   - **Inventory risk**: Under-prediction may lead to stockouts and lost revenue, frustrating customers and harming brand reputation. Over-prediction may cause over-stocking, markdowns, and waste.
@@ -78,7 +78,7 @@
   - The data covers a specific time and region; applying the model elsewhere might lead to poor performance.
   - The model does not consider marketing campaigns, holidays, or competitor actions explicitly, which could significantly change demand.
 
-**Uneexpected findings or results**
+**Unexpected findings or results**
 - Some items have extremely high single-day sales that needed clipping, indicating promotions or bulk purchases.
 - A small number of shops have very low or highly volatile sales; forecasts for these shops are less stable and may require manual review.
 - Lag features (previous months’ sales) appear to be among the most important predictors, confirming that sales history carries strong predictive signal.
