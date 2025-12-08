@@ -38,9 +38,7 @@
 **Test Data**
 - **Source of test data:** https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview (test.csv)
 - **Number of rows in test data:** 214,200 rows
-- **State any differences in columns between training and test data:**
--     test.csv contains: 'ID', 'shop_ID', and 'item_ID'
--     The tagret column 'item_cnt_month' is absent from the test set 
+- **State any differences in columns between training and test data:** test.csv contains: 'ID', 'shop_ID', and 'item_ID' and the tagret column 'item_cnt_month' is absent from the test set 
 
 **Model Details**
 - **Columns used as input in the final model:**
