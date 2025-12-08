@@ -44,8 +44,8 @@
 - **Columns used as input in the final model:** 'date_block_num', 'shop_id', 'item_id', 'item_category_id', 'type_code', 'city_code', 'average_item_price', 'item_cnt_month_lag_1', 'item_cnt_month_lag_2', 'item_cnt_month_lag_3', 'item_cnt_month_lag_6', 'item_cnt_month_lag_12'
 - **Type of model:** Decision Tree 
 - **Software used to implement the model:** Python, used in a Colab Jupyter Notebook
-- Version of the modeling software: Python 3.14.1
-- Hyperparameters or other settings of your model:'objective' = 'regression', 'metric = 'rmse', 'learning_rate = .05', 'num_leaves = 64', 'feature_fraction = .8", 'bagging_fraction = .8', 'bragging_freq = 5', 'seed = 42', num_boost_round = 200-300' with early stopping on the validation set 
+- **Version of the modeling software:** Python 3.14.1
+- **Hyperparameters or other settings of your model:** 'objective' = 'regression', 'metric = 'rmse', 'learning_rate = .05', 'num_leaves = 64', 'feature_fraction = .8", 'bagging_fraction = .8', 'bragging_freq = 5', 'seed = 42', num_boost_round = 200-300' with early stopping on the validation set 
 
 **Quantitative Analysis**
 - Metrics used to evaluate the final model: **come back to this**
@@ -55,11 +55,7 @@
       - Test Data:
   
   **Plots**
-  - Plots that are included in the repository:
-  - Distribution of item_cnt_month before and after clipping
-  - RMSE versus boosting round (LightGBM evaluation log)
-  - Feature importance plot from LightGBM (gain or split importance)
-  - Example time series for a single shop item pair (actual versus preidcted on validation month) 
+  - **Plots that are included in the repository:** Distribution of item_cnt_month before and after clipping, RMSE versus boosting round (LightGBM evaluation log), Feature importance plot from LightGBM (gain or split importance), Example time series for a single shop item pair (actual versus preidcted on validation month) 
   
 **Ethical Considerations**
 
