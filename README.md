@@ -49,14 +49,14 @@
 - **Target Variable** item_cnt_month (monthly item sales)
 
 **Quantitative Analysis**
-- Metrics used to evaluate the final model: **come back to this**
+- Metrics used to evaluate the final model: RMSE
 - Final values:
       - Training RMSE: 1.6974
       - Validation RMSE: 1.7416
-      - Test Data:
+      - Test Data: 
   
   **Plots**
-  - **Plots that are included in the repository:** Distribution of item_cnt_month before and after clipping, RMSE versus boosting round (LightGBM evaluation log), Feature importance plot from LightGBM (gain or split importance), Example time series for a single shop item pair (actual versus preidcted on validation month) 
+  - **Plots that are included in the repository:** Distribution of item_cnt_month before and after clipping, RMSE versus boosting round (LightGBM evaluation log), Feature importance plot from LightGBM (gain or split importance), Example time series for a single shop item pair (actual versus predicted on validation month) 
   
 **Ethical Considerations**
 
