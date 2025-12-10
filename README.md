@@ -58,6 +58,11 @@
   **Plots**
   - **Plots that are included in the repository:** Distribution of item_cnt_month before and after clipping, RMSE versus boosting round (LightGBM evaluation log), Feature importance plot from LightGBM (gain or split importance), Example time series for a single shop item pair (actual versus predicted on validation month)
  <img width="721" height="469" alt="Screenshot 2025-12-09 at 9 25 41 PM" src="https://github.com/user-attachments/assets/53189941-acbc-4977-b5db-fcdc6d506c9b" />
+<img width="850" height="855" alt="feature importance" src="https://github.com/user-attachments/assets/1b251bfc-0994-4ab4-afae-2225615a862e" />
+<img width="713" height="470" alt="distribution" src="https://github.com/user-attachments/assets/6e0c9ddd-b925-4c72-8a8c-19f5ae2e8e05" />
+<img width="691" height="470" alt="dist of item count before clipping" src="https://github.com/user-attachments/assets/c99ee443-f1a1-4efe-a2ea-df2512400f7d" />
+<img width="691" height="470" alt="dist of item count after clipping" src="https://github.com/user-attachments/assets/adb9be0f-9b89-49cf-b197-1737617b8f84" />
+
 
 **Ethical Considerations**
 
