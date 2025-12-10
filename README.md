@@ -51,13 +51,14 @@
 **Quantitative Analysis**
 - Metrics used to evaluate the final model: RMSE
 - Final values:
-      - Training RMSE: 1.6974
-      - Validation RMSE: 1.7416
-      - Test Data: 
+      - Training RMSE: 1.0403
+      - Validation RMSE: 1.2934
+      - Test Data: 214,200 rows
   
   **Plots**
-  - **Plots that are included in the repository:** Distribution of item_cnt_month before and after clipping, RMSE versus boosting round (LightGBM evaluation log), Feature importance plot from LightGBM (gain or split importance), Example time series for a single shop item pair (actual versus predicted on validation month) 
-  
+  - **Plots that are included in the repository:** Distribution of item_cnt_month before and after clipping, RMSE versus boosting round (LightGBM evaluation log), Feature importance plot from LightGBM (gain or split importance), Example time series for a single shop item pair (actual versus predicted on validation month)
+ <img width="721" height="469" alt="Screenshot 2025-12-09 at 9 25 41 PM" src="https://github.com/user-attachments/assets/53189941-acbc-4977-b5db-fcdc6d506c9b" />
+
 **Ethical Considerations**
 
 **Potential Negative Impacts**
