@@ -53,7 +53,7 @@
 - Final values:
       - Training RMSE: 1.0403
       - Validation RMSE: 1.2934
-      - Test Data: 214,200 rows
+      - Test Data: 1.21390
   
   **Plots**
   - **Plots that are included in the repository:** Distribution of item_cnt_month before and after clipping, RMSE versus boosting round (LightGBM evaluation log), Feature importance plot from LightGBM (gain or split importance), Example time series for a single shop item pair (actual versus predicted on validation month)
